@@ -51,6 +51,10 @@ form {
   margin-bottom: 2rem;
 }
 
+.input:focus {
+  outline-color: var(--cor4);
+}
+
 .input::placeholder {
   color: var(--cor3);
 }
@@ -62,11 +66,21 @@ form {
 
 .todos li {
   background-color: var(--cor5);
+  border: 1px solid var(--cor4);
   border-radius: .5rem;
   margin-top: .5rem;
   padding: 1rem 2rem;
+  cursor: pointer;
 }
 
 .todos li.completed {
   text-decoration: line-through;
+  border: 1px solid var(--cor5);
+}
+
+small {
+  margin-top: 3rem;
+  text-align: center;
+  color: var(--cor3);
+
 }
