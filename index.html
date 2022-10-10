@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Todo List</title>
   <!--Style-->
   <link rel="stylesheet" href="style.css">
   <!--Style Font-AWesome-->
@@ -12,10 +12,18 @@
   <!--Font-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"> 
 </head>
 <body>
-  
+  <h1>Todos</h1>
+  <form id="form">
+    <input type="text" id="input" class="input" placeholder="Enter your to do" autocomplete="off">
+
+    <ul class="todos" id="todos">
+      <li>Study JavaScript</li>
+      <li>Go to the Gym</li>
+    </ul>
+  </form>
 </body>
 <script src="script.js"></script>
 </html>
